@@ -653,7 +653,7 @@ void CRendererBase::ProcessHDR(CRenderBuffer* rb)
     {
       // Switch to SDR rendering
       CLog::LogF(LOGINFO, "Switching to SDR rendering");
-      // not need set color space because is alredy set when swap chain is re-created
+      // not need set color space because is already set when swap chain is re-created
       if (m_AutoSwitchHDR)
       {
         if (DX::Windowing()->IsHDROutput())
